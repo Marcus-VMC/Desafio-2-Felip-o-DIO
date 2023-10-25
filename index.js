@@ -1,7 +1,7 @@
 function calculadoraRank (vitorias, derrotas){
-	let saldoVitorias = vitorias - derrotas
-	let nivel = ""
-    const mensagem = "O herói tem saldo de " + saldoVitorias + " vitórias e está no nível "
+let saldoVitorias = vitorias - derrotas
+let nivel = ""
+const mensagem = "O herói tem saldo de " + saldoVitorias + " vitórias e está no nível "
 	
     if(saldoVitorias <= 10){
         nivel= "Ferro"
